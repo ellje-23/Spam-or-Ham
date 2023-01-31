@@ -1,0 +1,26 @@
+I have neither given nor received unauthorized aid on this program - Jess Elliott
+
+1. What bugs and conceptual difficulties did you encounter? How did you overcome them? What did you learn?
+- I coded the program almost entirely until I had to switch the text file I was reading in. It was at this point I realized
+my code was based on a text file containing a single email and not multiple. I had to adjust my code which led to a whole class
+being deleted and changes in most areas of my code. I realized I should've looked more carefully at the input files before
+starting.
+
+- Another bug was that P(S) or P(H) was infinity which caused all my probs to be infinity. I found this out through print statements.
+I realized it was because I cast variables as ints instead of doubles.
+
+- I got a null pointer exception in my code because it was trying to find a word in the spam/ham vocab that didn't exist in the spam/ham
+vocab. This took a while to fix as it caused small errors elsewhere that required fixing.
+
+2. Describe whatever help (if any) that you received. Don’t include readings, lectures, and exercises, but do include any help from other sources, such as websites or people (including classmates and friends) and attribute them by name.
+NA
+
+3. Describe any serious problems you encountered while writing the program.
+The biggest problem I had was the reading a text file as a whole file and not individually by email. It was simple to fix,
+but a time consuming one.
+
+4. Mention any challenges that you did.
+NA
+
+5. List any other feedback you have. Feel free to provide any feedback on how much you learned from doing the assignment, and whether you enjoyed doing it.
+I really liked coding this project. It's real world application really appealed to me. :)
